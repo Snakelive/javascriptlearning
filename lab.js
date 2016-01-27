@@ -1,13 +1,21 @@
-﻿function sayHello(){
-	print("Hello, world!");
+﻿var y = 0;
+function foo(x){
+	if(x){
+		console.log(y);
+	}else{
+		var y = 2;
+		console.log(y);
+	}
 }
+foo(true);
 
-sayHello();
+
+
 
 
 
 /*
-	var num = readline();
+	var num = 224;
 	var str = "На дереве сидит " + num + " ворон";
 	var x = "";
 
