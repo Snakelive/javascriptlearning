@@ -1,4 +1,24 @@
-﻿var y = 0;
+﻿function compare(x){
+	return function(y){
+		if(x > y)
+			return false;
+		else if( x < y)
+			return true;
+		return null;
+	};
+}
+
+var x = 5;
+var y = 6;
+var compare = compare(x,y);
+
+print(compare);
+
+
+
+
+
+/* var y = 0;
 function foo(x){
 	if(x){
 		console.log(y);
@@ -8,7 +28,7 @@ function foo(x){
 	}
 }
 foo(true);
-
+ */
 
 
 
