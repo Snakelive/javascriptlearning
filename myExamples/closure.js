@@ -16,6 +16,11 @@ function say(name){
 	}
 }
 
-var x = say('Ilya'); //this variable get the result of "say" function executing with added parameter. it get anonymous function.
-//Now "x" variable contents DECLARATION of anonymous function. And we call this function with new parameter.
+var x = say('Ilya'); //This variable gets "say" function execution with parameter 'Ilya' as declaration of returned anonymous function.
+					 //And this anonymous function already contents "name" parameter as "ilya" and remember it. 
+
+//Now "x" variable contents DECLARATION of anonymous function with remembered parameter "name" inside of.
+//We call "x" variable with brackets and this is executing anonymous function with new parameter.
 print(x('Snake')); //We get "Ilya Snake" 
+
+//Closure managed ^^
