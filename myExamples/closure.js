@@ -5,4 +5,4 @@ function say(name){
 }
 
 var x = say('Ilya');
-print(x('Snake'));
+print(x('Snake')); //it will print --> Ilya Khromov
