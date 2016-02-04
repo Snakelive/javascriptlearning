@@ -23,4 +23,13 @@ var x = say('Ilya'); //This variable gets "say" function execution with paramete
 //We call "x" variable with brackets and this is executing anonymous function with new parameter.
 print(x('Snake')); //We get "Ilya Snake" 
 
+
 //Closure managed ^^
+
+/* Therms
+
+1. Closure - it is capacity of function to save link to variable of high level context.
+2. Every function of js is a "higher-order function" - it means these functions can get as parameter another function 
+and return another function as result of execution.
+
+ */
