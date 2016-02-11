@@ -1,4 +1,33 @@
-﻿function compare(x){
+﻿
+
+
+
+
+
+
+ 
+ 
+/*
+var user = {
+	name: "Ilya",
+	"age": 25,
+	say: function(){
+			print(this.name);
+		}
+}
+ 
+
+user.name;
+user.say();
+
+
+for(var i in user)
+	print(i + ": " + user[i]);
+
+
+
+
+function compare(x){
 	return function(y){
 		if(x > y)
 			return false;
@@ -18,7 +47,7 @@ print(compare);
 
 
 
-/* var y = 0;
+ var y = 0;
 function foo(x){
 	if(x){
 		console.log(y);
